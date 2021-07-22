@@ -1,0 +1,15 @@
+#footer{
+    position: absolute;
+    bottom: 30px;
+    height: 1rem;
+    left: 1%;
+    right: 1%;
+    text-align: center;
+    line-height: 1rem;
+}
+
+#myGithub{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.myForm{
+    position: absolute;
+    /*float: left;*/
+    border-radius: 20px;
+    height: 400px;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: white;
+    align-items: center;
+    overflow: hidden;
+}
+
+.trueForm{
+    width: 100%;
+}
+
+.title{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-around;
+    width: 40%;
+}
+.line{
+    display: inline-block;
+    color:#bfa;
+    margin-top: -4%;
+    margin-bottom: 10%;
+    width: 30%;
+}
+
+#forgetPassword{
+    display: inline-block;
+    float: right;
+    text-align: center;
+    line-height: 100%;
+}
+
+.myBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftPicture{
+    height: 400px;
+}
+

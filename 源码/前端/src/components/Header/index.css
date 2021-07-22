@@ -1,0 +1,109 @@
+.myHeader{
+    width: auto;
+    min-width: 1000px;
+    height: 12vh;
+    background-color: rgba(214, 214, 214, 0.5);
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    right: 0.5%;
+    left: 0.5%;
+    overflow: hidden;
+}
+
+#webTitle{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    height: 1rem;
+    cursor: pointer;
+}
+
+#logo{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    transform: translateY(-25%);
+    margin-right: 10px;
+}
+
+
+.myFont{
+    font-style: normal;
+    position: relative;
+    font-size: 3rem;
+    top: 4rem;
+    animation: .6s swift-up ease-in-out forwards;
+}
+
+mark{
+    background-color: transparent;
+    color: inherit;
+    background-image: linear-gradient(rgb(112, 212, 228), rgb(112, 212, 228));
+    background-repeat: no-repeat;
+    background-size: 0 50%;
+    animation: .6s rowMove ease-in-out forwards;
+    animation-delay: .7s;
+    background-position: 0 100%;
+}
+
+@keyframes rowMove {
+    to {background-size: 100% 50%;}
+}
+
+.myTitle{
+    display: inline-block;
+    position: relative;
+    top: 0.8rem;
+    animation: .2s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+    to {
+        top: 0;
+    }
+}
+
+.myTitle:nth-of-type(1) i{
+    animation-delay: 0s;
+}
+.myTitle:nth-of-type(2) i{
+    animation-delay: .1s;
+}
+.myTitle:nth-of-type(3) i{
+    animation-delay: .2s;
+}
+.myTitle:nth-of-type(4) i{
+    animation-delay: .3s;
+}
+.myTitle:nth-of-type(5) i{
+    animation-delay: .4s;
+}
+.myTitle:nth-of-type(6) i{
+    animation-delay: .5s;
+}
+.myTitle:nth-of-type(7) i{
+    animation-delay: .6s;
+}
+
+.myTitle:nth-of-type(1){
+    animation-delay: 0s;
+}
+.myTitle:nth-of-type(2){
+    animation-delay: .1s;
+}
+.myTitle:nth-of-type(3){
+    animation-delay: .2s;
+}
+.myTitle:nth-of-type(4){
+    animation-delay: .3s;
+}
+.myTitle:nth-of-type(5){
+    animation-delay: .4s;
+}
+.myTitle:nth-of-type(6){
+    animation-delay: .5s;
+}
+.myTitle:nth-of-type(7){
+    animation-delay: .6s;
+}

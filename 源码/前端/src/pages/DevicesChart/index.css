@@ -1,0 +1,63 @@
+.chartContainer{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+#deviceChart{
+    width: auto;
+    height: 20%;
+    top: 3%;
+    left: 5%;
+    right: 5%;
+    /*overflow: hidden;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#allDevice{
+    background-image: linear-gradient(120deg, #00e795 0, #0095e2 100%)
+}
+@media screen and (min-width:50rem){
+    .myCard{
+        width: 30%;
+    }
+    #Cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    .indexChart{
+        width: 47%;
+    }
+}
+
+.cardItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dataChart{
+    height: 500px;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+#messageChart{
+    height: 500px;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+.item1, .item2{
+    display: flex;
+    flex: 1 1 50%
+}
+#dataContainer{
+    padding-top: 5%;
+}

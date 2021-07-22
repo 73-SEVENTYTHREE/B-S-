@@ -1,0 +1,36 @@
+body {
+  background: url("./images/background.jpg") no-repeat fixed;
+  background-size: 100% 100%;
+  min-width: 40rem;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width:50rem){
+  #Cards {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+  }
+  .myCard{
+    width: 100%;
+  }
+  #dataContainer{
+    flex-direction: column;
+  }
+  .indexChart{
+    width: 100%;
+  }
+}
+
